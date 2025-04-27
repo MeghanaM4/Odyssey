@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "8e346f68-974f-4ac2-9553-00b188760eae")
 	(paper "A4")
 	(title_block
@@ -36,31 +36,31 @@
 			)
 			(property "Footprint" "CAP_0402_N_WAL"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "0402B104K160CT"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -73,20 +73,20 @@
 			)
 			(property "ki_keywords" "0402B104K160CT"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "CAP_0402_N_WAL CAP_0402_N_WAL-M CAP_0402_N_WAL-L"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0402B104K160CT_1_1"
@@ -288,31 +288,31 @@
 			)
 			(property "Footprint" "footprints:LGA-16_4X4X1_STM"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "I3G4250DTR"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -325,20 +325,20 @@
 			)
 			(property "ki_keywords" "I3G4250DTR"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LGA-16_4X4X1_STM LGA-16_4X4X1_STM-M LGA-16_4X4X1_STM-L"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "I3G4250DTR_0_1"
@@ -706,31 +706,31 @@
 			)
 			(property "Footprint" "footprints:LGA-12_2X2X0P7_STM"
 				(at 7.366 7.62 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "IIS2MDCTR"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -743,20 +743,20 @@
 			)
 			(property "ki_keywords" "IIS2MDCTR"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LGA-12_2X2X0P7_STM LGA-12_2X2X0P7_STM-M LGA-12_2X2X0P7_STM-L"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "IIS2MDCTR_0_1"
@@ -1054,120 +1054,120 @@
 			)
 			(property "Footprint" "MPL3115A2:PSON125P300X500X120-8N"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MF" "NXP Semiconductors"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Description_1" "Pressure Sensor 7.25PSI ~ 15.95PSI (50kPa ~ 110kPa) Absolute - 24 b 8-TLGA"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Package" "TLGA-8 NXP Semiconductors"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Price" "None"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/MPL3115A2/NXP+Semiconductors/view-part/?ref=eda"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MPL3115A2/NXP+Semiconductors/view-part/?ref=snap"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MP" "MPL3115A2"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Availability" "In Stock"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MANUFACTURER" "Freescale Semiconductor"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(symbol "MPL3115A2_0_0"
@@ -1356,70 +1356,70 @@
 			)
 			(property "Footprint" "MSD-4-A:CUI_MSD-4-A"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PARTREV" "1.0"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MANUFACTURER" "CUI Devices"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(symbol "MSD-4-A_0_0"
@@ -1696,29 +1696,29 @@
 			)
 			(property "Footprint" ""
 				(at -8.89 5.08 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -8.89 5.08 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XIAO-RP2040-SMD_0_1"
@@ -2098,361 +2098,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TL3305AF260QG:TL3305AF260QG"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TL3305AF260QG"
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TL3305AF260QG:SW_TL3305AF260QG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMD-4 E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "TL3305AF260QG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "E-Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TL3305AF260QG_0_0"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 2.54 1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2467,11 +2112,11 @@
 			(on_board yes)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
@@ -2484,38 +2129,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -2562,18 +2207,6 @@
 		(uuid "0bf0188a-638b-4eba-b2ec-4af762d5fdc8")
 	)
 	(junction
-		(at 257.81 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24508276-9278-406d-9107-f1439f9d01f7")
-	)
-	(junction
-		(at 231.14 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47516095-4f81-4a85-bec5-26b313c0d81d")
-	)
-	(junction
 		(at 238.76 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,26 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b05ff54-b82d-4631-a44b-e7f80dd10475")
-	)
-	(wire
-		(pts
-			(xy 257.81 52.07) (xy 257.81 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e57586b-3956-4c27-adfa-3e8ad3a8d187")
-	)
-	(wire
-		(pts
 			(xy 128.27 123.19) (xy 128.27 120.65)
 		)
 		(stroke
@@ -2631,16 +2244,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 231.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2238a228-37ab-4f06-a34f-5c292b807bba")
-	)
-	(wire
-		(pts
 			(xy 200.66 134.62) (xy 238.76 134.62)
 		)
 		(stroke
@@ -2648,16 +2251,6 @@
 			(type default)
 		)
 		(uuid "2314d4c9-a1e3-4f26-b73c-0b72baa429f3")
-	)
-	(wire
-		(pts
-			(xy 257.81 54.61) (xy 255.27 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487ca3af-8388-41f7-a47a-66add72217a6")
 	)
 	(wire
 		(pts
@@ -2678,16 +2271,6 @@
 			(type default)
 		)
 		(uuid "4dbffd4f-c2ea-4cb8-8ff6-bdbbeea01223")
-	)
-	(wire
-		(pts
-			(xy 224.79 58.42) (xy 224.79 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "522e51bb-b186-4d70-beda-b1f7a2c0eecc")
 	)
 	(wire
 		(pts
@@ -2741,16 +2324,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 234.95 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8f930c-d24f-4ded-a804-90bf2c3b7359")
-	)
-	(wire
-		(pts
 			(xy 200.66 127) (xy 200.66 134.62)
 		)
 		(stroke
@@ -2758,16 +2331,6 @@
 			(type default)
 		)
 		(uuid "88c198dd-a891-417b-a33e-bf78cabd4449")
-	)
-	(wire
-		(pts
-			(xy 224.79 52.07) (xy 231.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c03735-f0df-4772-87c0-3b1eea952c6d")
 	)
 	(wire
 		(pts
@@ -2791,46 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 58.42) (xy 261.62 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b741fd5e-d14c-4f86-9583-2fe93689dc00")
-	)
-	(wire
-		(pts
-			(xy 257.81 49.53) (xy 255.27 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ae800d-1072-4fa5-82b9-9876fa5519b2")
-	)
-	(wire
-		(pts
-			(xy 228.6 58.42) (xy 261.62 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf07624a-a540-4458-8cd0-12c4bd213448")
-	)
-	(wire
-		(pts
-			(xy 231.14 54.61) (xy 234.95 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76028b2-d1b6-435d-843c-dcad80091a31")
-	)
-	(wire
-		(pts
 			(xy 132.08 116.84) (xy 130.81 116.84)
 		)
 		(stroke
@@ -2851,16 +2374,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 52.07) (xy 257.81 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e119646b-0af4-48fb-9e60-7d7bac7a35cd")
-	)
-	(wire
-		(pts
 			(xy 132.08 118.11) (xy 135.89 118.11)
 		)
 		(stroke
@@ -2868,16 +2381,6 @@
 			(type default)
 		)
 		(uuid "ed26ba4f-856b-4e02-a3ea-18f26a8feed9")
-	)
-	(wire
-		(pts
-			(xy 257.81 52.07) (xy 257.81 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3167005-9261-4a7f-89c0-9b199c0f6d32")
 	)
 	(global_label "MOSI"
 		(shape input)
@@ -2893,11 +2396,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.3186 77.47 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2915,11 +2420,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.301 69.85 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2937,11 +2444,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.4057 71.12 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2959,11 +2468,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.8614 66.04 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -2981,11 +2492,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.0586 114.3 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3003,11 +2516,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.8453 92.71 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3025,11 +2540,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.6014 67.31 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3047,11 +2564,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.0557 116.84 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3069,11 +2588,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.1562 88.9 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3091,11 +2612,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.5586 118.11 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3113,11 +2636,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.5862 116.84 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3135,11 +2660,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.4662 68.58 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3157,11 +2684,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.783 90.17 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3179,11 +2708,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.5747 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3201,11 +2732,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.301 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3223,11 +2756,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.4214 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3245,11 +2780,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.0957 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3267,11 +2804,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.3933 88.9 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3289,11 +2828,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.3467 72.39 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3311,11 +2852,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.3186 82.55 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3333,11 +2876,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.1757 77.47 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3355,11 +2900,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.6562 110.49 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3377,11 +2924,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.5747 124.46 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3399,11 +2948,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.0586 116.84 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3421,11 +2972,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.5257 119.38 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3443,11 +2996,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.6547 92.71 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3465,11 +3020,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.543 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3487,11 +3044,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.7443 123.19 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3509,11 +3068,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.3686 62.23 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3531,11 +3092,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.4214 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3553,11 +3116,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.801 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3575,11 +3140,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.801 78.74 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3597,11 +3164,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.1386 77.47 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3619,11 +3188,13 @@
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.5586 115.57 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3657,28 +3228,34 @@
 		(property "Footprint" "footprints:XIAO-RP2040-SMD"
 			(at 213.36 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 213.36 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 222.25 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "13"
@@ -3763,10 +3340,12 @@
 		(property "Reference" "#PWR09"
 			(at 250.19 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3781,28 +3360,34 @@
 		(property "Footprint" ""
 			(at 243.84 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 243.84 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 243.84 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3830,10 +3415,12 @@
 		(property "Reference" "#PWR07"
 			(at 182.88 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3848,28 +3435,34 @@
 		(property "Footprint" ""
 			(at 176.53 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 73.66 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3897,10 +3490,12 @@
 		(property "Reference" "#PWR01"
 			(at 181.61 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -3915,28 +3510,34 @@
 		(property "Footprint" ""
 			(at 175.26 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 175.26 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3979,30 +3580,36 @@
 		(property "Footprint" "footprints:IIS2MDCTR"
 			(at 143.256 102.87 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "IIS2MDCTR"
 			(at 135.89 110.49 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 135.89 110.49 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4063,10 +3670,12 @@
 		(property "Reference" "#PWR02"
 			(at 130.81 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4081,28 +3690,34 @@
 		(property "Footprint" ""
 			(at 137.16 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4129,10 +3744,12 @@
 		(property "Reference" "C3"
 			(at 132.08 114.3 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "C2"
@@ -4146,30 +3763,36 @@
 		(property "Footprint" "footprints:CAP_0402_N_WAL"
 			(at 128.27 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "0402B104K160CT"
 			(at 128.27 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 128.27 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4188,201 +3811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TL3305AF260QG:TL3305AF260QG")
-		(at 245.11 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7354af32-72c4-4d23-a211-f3fee139434f")
-		(property "Reference" "U4"
-			(at 245.11 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL3305AF260QG"
-			(at 245.11 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_TL3305AF260QG"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.8mm"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMD-4 E-Switch"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=eda"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "C"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL3305AF260QG/E-Switch/view-part/?ref=snap"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TL3305AF260QG"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "E-Switch"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6b077f02-af19-4b2a-ab67-ab5b8642a0c5")
-		)
-		(pin "3"
-			(uuid "55077e3f-2d87-4d6c-9e73-f7b0d75a9e20")
-		)
-		(pin "1"
-			(uuid "663cc217-75d0-4ae8-8843-8fbb74f71e8d")
-		)
-		(pin "4"
-			(uuid "125ef5aa-4dda-4e03-99ed-96269bcc655e")
-		)
-		(instances
-			(project ""
-				(path "/8e346f68-974f-4ac2-9553-00b188760eae"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 78.74 90)
 		(unit 1)
@@ -4395,10 +3823,12 @@
 		(property "Reference" "#PWR05"
 			(at 182.88 78.74 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4413,28 +3843,34 @@
 		(property "Footprint" ""
 			(at 176.53 78.74 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 78.74 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 78.74 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4480,69 +3916,83 @@
 		(property "Footprint" "footprints:CUI_MSD-4-A"
 			(at 104.14 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 104.14 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 104.14 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" "1.0"
 			(at 104.14 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 104.14 85.09 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
 			(at 104.14 85.09 0)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 104.14 85.09 0)
+			(effects
 				(hide yes)
+			)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -4606,10 +4056,12 @@
 		(property "Reference" "#PWR04"
 			(at 182.88 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4624,28 +4076,34 @@
 		(property "Footprint" ""
 			(at 176.53 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 81.28 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4688,30 +4146,36 @@
 		(property "Footprint" "footprints:I3G4250DTR"
 			(at 137.16 66.04 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "I3G4250DTR"
 			(at 137.16 66.04 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 137.16 66.04 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4784,10 +4248,12 @@
 		(property "Reference" "#PWR010"
 			(at 82.55 100.33 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4802,28 +4268,34 @@
 		(property "Footprint" ""
 			(at 88.9 100.33 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 88.9 100.33 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 88.9 100.33 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4851,10 +4323,12 @@
 		(property "Reference" "#PWR03"
 			(at 182.88 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4869,28 +4343,34 @@
 		(property "Footprint" ""
 			(at 176.53 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 83.82 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4918,10 +4398,12 @@
 		(property "Reference" "#PWR06"
 			(at 182.88 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -4936,28 +4418,34 @@
 		(property "Footprint" ""
 			(at 176.53 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 76.2 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4985,10 +4473,12 @@
 		(property "Reference" "#PWR08"
 			(at 248.92 129.54 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -5003,28 +4493,34 @@
 		(property "Footprint" ""
 			(at 242.57 129.54 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 242.57 129.54 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 242.57 129.54 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5051,48 +4547,58 @@
 		(property "Reference" "C1"
 			(at 204.47 120.65 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "0402B104K160CT"
 			(at 204.47 123.19 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "footprints:CAP_0402_N_WAL"
 			(at 200.66 127 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "0402B104K160CT"
 			(at 200.66 127 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 127 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5139,119 +4645,143 @@
 		(property "Footprint" "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "NXP Semiconductors"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "Pressure Sensor 7.25PSI ~ 15.95PSI (50kPa ~ 110kPa) Absolute - 24 b 8-TLGA"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "TLGA-8 NXP Semiconductors"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MPL3115A2/NXP+Semiconductors/view-part/?ref=eda"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MPL3115A2/NXP+Semiconductors/view-part/?ref=snap"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "MPL3115A2"
 			(at 223.52 121.92 0)
 			(effects
+				(hide yes)
+			)
+			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "In Stock"
 			(at 223.52 121.92 0)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MANUFACTURER" "Freescale Semiconductor"
-			(at 223.52 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Freescale Semiconductor"
+			(at 223.52 121.92 0)
+			(effects
 				(hide yes)
+			)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "7"
