@@ -1,4 +1,4 @@
-24565889640882523
+24578109309279035
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99162,6 +99162,41 @@ Varistor VF
 2
 2
 footprints
+2464_KEY
+
+2464 
+0
+4
+4
+footprints
+CAP_0402_N_WAL
+
+0402B104K160CT 
+0
+2
+2
+footprints
+CAP_0402_N_WAL-L
+
+0402B104K160CT 
+0
+2
+2
+footprints
+CAP_0402_N_WAL-M
+
+0402B104K160CT 
+0
+2
+2
+footprints
+CUI_MSD-4-A
+
+
+0
+13
+13
+footprints
 DCK0005A_L
 
 LMT84DCKR 
@@ -99232,6 +99267,13 @@ PSON125P300X500X120-8N
 8
 8
 footprints
+SW_TL3305AF260QG
+
+
+0
+4
+4
+footprints
 XIAO-RP2040-DIP
 
 
@@ -99245,3 +99287,10 @@ XIAO-RP2040-SMD
 0
 20
 20
+footprints
+madplanet
+
+
+0
+0
+0
