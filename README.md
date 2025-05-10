@@ -1,6 +1,6 @@
 # Odyssey
 
-> a project for [apex.hackclub.com](https://apex.hackclub.com) by me and help from Kieran Klukas
+> a project for [apex.hackclub.com](https://apex.hackclub.com) by Meghana Madiraju and help from Kieran Klukas
 
 I have been in love with space for as long as I can remember, so when I heard Hack Club was letting teenagers send whatever they want 113,000 feet in the air I knew I had to do it. We get $100 per person to make an invention that'll go onto a high altitude balloon (HAB), and if you spend 30 hours on it you'll get to go to Boston for a hackathon where everyone will launch their payloads at the same time and make cool stuff.
 
@@ -24,7 +24,9 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 | MS560702BA03-50 | Barometer |
 | MPU-6050 | Gyroscope/accelerometer |
 | ALS31313KLEATR-1000 | Magnetometer |
-| Mini Body Cam | Internal view of payload | 
+| Mini Body Cam | Internal view of payload |      
+
+View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j1fYMRJqijLE8DN1v_GkXtAQhd4oCJCtc/edit?usp=sharing)
 
 ## Timeline
 | Phase | Status (%)|
