@@ -1,0 +1,12 @@
+### Footprint positions - created on 2025-05-02T18:11:20-0700 ###
+### Printed by KiCad version 9.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                     PosX       PosY       Rot  Side
+C1        C               C_0402_1005Metric       163.6000  -100.6000  180.0000  top
+C2        C               C_0402_1005Metric       163.6000  -103.2000  180.0000  top
+U1        ALS31313KLEATR  TSSOP8_LE_ALM           166.6000  -101.2000  -90.0000  top
+U2        MPU-6050        QFN24_4X4X0P9-0P5_TDK   159.6498  -102.2061  -90.0000  top
+U3        MS560702BA03    SON8_MS5611_TEC         160.1250  -109.1000  -90.0000  top
+U5        TF-01A          TF-01A                  147.0000  -106.2750  180.0000  top
+## End

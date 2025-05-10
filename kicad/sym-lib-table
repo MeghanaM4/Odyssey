@@ -5,4 +5,5 @@
   (lib (name "MS560702BA03-50")(type "KiCad")(uri "${KIPRJMOD}/libs/syms/MS560702BA03-50.kicad_sym")(options "")(descr ""))
   (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/libs/syms/RP2040.kicad_sym")(options "")(descr ""))
   (lib (name "TF-01A")(type "KiCad")(uri "${KIPRJMOD}/libs/syms/TF-01A.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/libs/syms/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,7 @@
+### Footprint positions - created on 2025-05-02T18:11:20-0700 ###
+### Printed by KiCad version 9.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                PosX       PosY       Rot  Side
+U4        XIAO-RP2040-SMD  XIAO-RP2040-SMD    158.4000  -106.2000   90.0000  bottom
+## End
