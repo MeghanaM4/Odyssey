@@ -26,6 +26,16 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 | ALS31313KLEATR-1000 | Magnetometer |
 | Mini Body Cam | Internal view of payload | 
 
+## Timeline
+| Phase | Status (%)|
+| ------ | ------ |
+| Research + Planning | 95% |
+| Designing PCB and electronics layout | 80% | 
+| Building payload | 0% |
+| Coding firmware | 1% |
+| Final tests and edits | 0% |
+| Launch | 0% |
+
 ## Design Process
 My first sketch of Odyssey looked like this:
 <br>
@@ -46,3 +56,8 @@ I also drew a sketch of what I wanted the internal view to be:
 <br>
 <img src="/imgs/odysseyintview.png" alt="Odyssey internal camera view" style="height: 250px; width:500px;"/>
 <br>
+
+## Big thank you to
+-My teachers for putting up with my late work
+-My parents for letting me work on this instead of school
+-Kieran for answering all my questions
