@@ -58,6 +58,6 @@ I also drew a sketch of what I wanted the internal view to be:
 <br>
 
 ## Big thank you to
--My teachers for putting up with my late work
--My parents for letting me work on this instead of school
--Kieran for answering all my questions
+-My teachers for putting up with my late work      
+-My parents for letting me work on this instead of school       
+-Kieran for answering all my questions        
