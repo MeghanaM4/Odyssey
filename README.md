@@ -26,7 +26,11 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 | ALS31313KLEATR-1000 | Magnetometer |
 | Mini Body Cam | Internal view of payload |      
 
-View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j1fYMRJqijLE8DN1v_GkXtAQhd4oCJCtc/edit?usp=sharing)
+View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j1fYMRJqijLE8DN1v_GkXtAQhd4oCJCtc/edit?usp=sharing)          
+<br>
+## PCB
+<img src="/imgs/odysseyPCBview.png" alt="Odyssey PCB CAD rendering" style="height: 300px; width:500px;"/>             
+<br>
 
 ## Timeline
 | Phase | Status (%)|
