@@ -54,13 +54,19 @@ The second sketch had some improvements:
 <br>
 <img src="/imgs/odysseyv2drawing.png" alt="Odyssey v2 drawing" style="height: 300px; width:300px;"/>
 <br>
+
 I thought that we would need 3 PCBs: one for the main sensors, one for the LCD screen and 7-seg display, and one for the pyranometer. What's overkill? This obviously was taken out after I thought about a bit more (see: overkill) and after I saw the customs and duties taxes. The yellow stuff you see on the walls is my artistic interpretation of spray insulation.      
 
 I really wanted our data to be space-focused, so getting a pyranometer to measure cosmic ray data was at the top of my list. Unfortunately, the Apogee Instrument component I found was a massive pain to work with, so I decided to just scrap it. If I get the basic functionality of everything else working, then I'll look into aurora borealis or radiation detection. The challenge is that those have to be on the outside of the payload, or at least shielded solely by polycarb or some other low-z window material.
 
 I also drew a sketch of what I wanted the internal view to be:
 <br>
-<img src="/imgs/odysseyintview.png" alt="Odyssey internal camera view" style="height: 250px; width:500px;"/>
+<img src="/imgs/odysseyintview1.png" alt="Odyssey internal camera view v1" style="height: 250px; width:500px;"/>
+<br>
+
+Here's an updated internal view with a smaller box and an updated layout:
+<br>
+<img src="/imgs/odysseyintview2.png" alt="Odyssey internal camera view v2" style="height: 375px; width:500px;"/>
 <br>
 
 ## Big thank you to
