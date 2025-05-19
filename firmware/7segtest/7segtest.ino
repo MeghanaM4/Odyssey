@@ -25,15 +25,15 @@ int Dig3 = 4;
 int Dig4 = 5;
 int DP = 13;
 
-int pins[12] = {Dig1, Dig2, Dig3, Dig4, pinA, pinB, pinC, pinD, pinE, pinF, pinG, DP};
-int dispPins[7] = {pinA, pinB, pinC, pinD, pinE, pinF, pinG};
-int digPins[4] = {Dig1, Dig2, Dig3, Dig4};
+int pins[] = {Dig1, Dig2, Dig3, Dig4, pinA, pinB, pinC, pinD, pinE, pinF, pinG, DP};
+int dispPins[] = {pinA, pinB, pinC, pinD, pinE, pinF, pinG};
+int digPins[] = {Dig1, Dig2, Dig3, Dig4};
 
 
 void setup() {     
 
-  for(int i = 0; i < sizeof(pins); i++) {
-    pinMode(pins[i], OUTPUT);
+  for(int pin : pins) {
+    pinMode(pin, OUTPUT);
   }
 
 }
