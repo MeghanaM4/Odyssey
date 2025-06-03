@@ -6,9 +6,9 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 
 ## Quick Overview (what we're sending up)
 - Sensor data from SMD components on PCB (stored on a microSD card)
-- PCB powered by AA batteries that can survive -45C
+- PCB powered by 3 AA batteries that can survive -45C
 - Internal camera that can see outside through a polycarbonate window on the wall
-- 7-segment display that shows the current altitude, which the int. camera can also see
+- 4 digit 7-segment displays that show the current altitude, which the int. camera can also see
 - Bouncy balls so we can test if the low pressure affected their bouncification index (technical term)
 
 ## Collected data
@@ -21,7 +21,7 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 | Component | Purpose |
 | --------- | ------- |
 | Seeed Studio XIAO RP2040 | Main microcontroller |
-| MS560702BA03-50 | Barometer |
+| MS560702BA03-50 | Altimeter |
 | MPU-6050 | Gyroscope/accelerometer |
 | ALS31313KLEATR-1000 | Magnetometer |
 | Mini Body Cam | Internal view of payload |      
@@ -29,7 +29,7 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j1fYMRJqijLE8DN1v_GkXtAQhd4oCJCtc/edit?usp=sharing)          
 <br>
 ## PCB
-<img src="/imgs/odysseyPCBview.png" alt="Odyssey PCB CAD rendering" style="height: 300px; width:500px;"/>             
+<img src="/imgs/odysseyPCBview.png" alt="Odyssey PCB CAD rendering" title="Odyssey PCB CAD rendering" style="height: 300px; width:500px;"/>             
 <br>
 
 ## Timeline
@@ -45,14 +45,14 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 ## Design Process
 My first sketch of Odyssey looked like this:
 <br>
-<img src="/imgs/odysseyv1drawing.png" alt="Odyssey v1 drawing" style="height: 300px; width:300px;"/>
+<img src="/imgs/odysseyv1drawing.png" alt="Odyssey v1 drawing" title="Odyssey v1 drawing" style="height: 300px; width:300px;"/>
 <br>
 The main PCB (the green square artfully drawn in the center, complete with blue copper traces) with the XIAO and SMDs would process and collect data. The 4 digit 7-segment display displays the altitude of the payload (math that would be calculated from the barometer), and would sit in front of an internal camera (the purple box) so the altitude could be captured in the video feed. The internal camera would also look outside via the polycarbonate window that I am going to steal from my robotics team's shop (sorry Mr. S).      
 The camera on top was originally meant to capture the sky, but then I found out all the payloads would be aligned on top of eachother candy-necklace style, so I scrapped that pretty quick.
 
 The second sketch had some improvements:
 <br>
-<img src="/imgs/odysseyv2drawing.png" alt="Odyssey v2 drawing" style="height: 300px; width:300px;"/>
+<img src="/imgs/odysseyv2drawing.png" alt="Odyssey v2 drawing" title="Odyssey v2 drawing" style="height: 300px; width:300px;"/>
 <br>
 
 I thought that we would need 3 PCBs: one for the main sensors, one for the LCD screen and 7-seg display, and one for the pyranometer. What's overkill? This obviously was taken out after I thought about a bit more (see: overkill) and after I saw the customs and duties taxes. The yellow stuff you see on the walls is my artistic interpretation of spray insulation.      
@@ -61,13 +61,19 @@ I really wanted our data to be space-focused, so getting a pyranometer to measur
 
 I also drew a sketch of what I wanted the internal view to be:
 <br>
-<img src="/imgs/odysseyintview1.png" alt="Odyssey internal camera view v1" style="height: 250px; width:500px;"/>
+<img src="/imgs/odysseyintview1.png" alt="Odyssey internal camera view v1" title="Odyssey internal camera view v1" style="height: 250px; width:500px;"/>
 <br>
 
 Here's an updated internal view with a smaller box and an updated layout:
 <br>
-<img src="/imgs/odysseyintview2.png" alt="Odyssey internal camera view v2" style="height: 375px; width:500px;"/>
+<img src="/imgs/odysseyintview2.png" alt="Odyssey internal camera view v2" title="Odyssey internal camera view v2" style="height: 375px; width:500px;"/>
 <br>
+
+At this point, I planned for a PCB to store data from 3 sensors onto a microSD card, an internal camera that I charged to take a video of the entire flight, and 2 4-digit 7-segment displays to show the altitude as the payload rose. I hadn't yet figured out how to power the 7seg displays, or how I was going to control it (since the PCB didn't have enough open GPIO pins). I ordered 2 PCBAs of JLCPCB (I had to ship it to my friend in Canada, who then shipped it to me, to avoid the tariffs), Kieran and I soldered  the XIAO RP2040 on the back, and we started reading from the sensors.      
+<br>
+<img src="/imgs/odysseyPCB" alt="Finished Odyssey PCB" title="Finished Odyssey PCB" style="height: 375px; width:500px;"/>
+<br>
+
 
 ## Big thank you to
 -My teachers for putting up with my late work      
