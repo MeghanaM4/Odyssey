@@ -71,7 +71,7 @@ Here's an updated internal view with a smaller box and an updated layout:
 
 At this point, I planned for a PCB to store data from 3 sensors onto a microSD card, an internal camera that I charged to take a video of the entire flight, and 2 4-digit 7-segment displays to show the altitude as the payload rose. I hadn't yet figured out how to power the 7seg displays, or how I was going to control it (since the PCB didn't have enough open GPIO pins). I ordered 2 PCBAs of JLCPCB (I had to ship it to my friend in Canada, who then shipped it to me, to avoid the tariffs), Kieran and I soldered  the XIAO RP2040 on the back, and we started reading from the sensors.      
 <br>
-<img src="/imgs/odysseyPCB" alt="Finished Odyssey PCB" title="Finished Odyssey PCB" style="height: 375px; width:500px;"/>
+<img src="/imgs/odysseyPCB.jpg" alt="Finished Odyssey PCB" title="Finished Odyssey PCB" style="height: 300px; width:500px;"/>
 <br>
 
 
