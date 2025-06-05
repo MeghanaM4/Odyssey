@@ -73,7 +73,7 @@ At this point, I planned for a PCB to store data from 3 sensors onto a microSD c
 <br>
 <img src="/imgs/odysseyPCB.jpg" alt="Finished Odyssey PCB" title="Finished Odyssey PCB" style="height: 300px; width:500px;"/>
 <br>
-
+I wanted the current altitude of the payload displayed on two 4-digit 7-segment displays so that the internal camera could see it, and realized quickly that I would need like 28 GPIO pins if I directly connected them both to a microcontroller, so that was a no go. I then found out that there's ICs that are made for controlling these kinds of things, so I spent the last of my $100 grant and got to work.
 
 ## Big thank you to
 -My teachers for putting up with my late work      
