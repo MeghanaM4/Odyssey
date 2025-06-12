@@ -75,6 +75,13 @@ At this point, I planned for a PCB to store data from 3 sensors onto a microSD c
 <br>
 I wanted the current altitude of the payload displayed on two 4-digit 7-segment displays so that the internal camera could see it, and realized quickly that I would need like 28 GPIO pins if I directly connected them both to a microcontroller, so that was a no go. I then found out that there's ICs that are made for controlling these kinds of things, so I spent the last of my $100 grant and got to work.
 
+Bit of a change in plans. The MAX7219 driver chip I wanted to use to control the 7 segment displays didn't work and the libraries people used were like falling apart, so I was on the verge of severely rethinking plans. Then, Kieran came up with the wonderful idea of transmitting the altimeter data from the XIAO RP2040 (on the main PCB) to another microcontroller, so that we would have enough GPIO pins to directly wire the 7seg display.
+
+Then, we remembered that we need two 4 digit 7seg displays, so we were like "let's send data from the xiao rp2040 to 2 other microcontrollers, one has the first 4 digits of the altitude and one has the last 4." Insane. So I'm working on that right now. We got connection between the xiao rp2040 and a xiao nrf52840 sense, but the sense doesn't have enough GPIO pins so Kieran kindly decided to lend me 2 orpheus picos (shout out Adam).
+> An Orpheus Pico is a cheaper version of the raspberry pi pico made by @adammakesthingsdev that Hack Club used to make and distribute to people
+
+I keep getting a transmission timing error between the xiao rp2040 and the pico, and I don't know how to fix it. Part of me thinks it's how I wired my pull up resistors (translating breadboard wiring to parallel and series diagrams in my head is rough), but I have no idea. At least I can flash code on the pico now, I dealt with a BOOTSEL issue for like 3 hours yesterday.
+
 ## Big thank you to
 -My teachers for putting up with my late work      
 -My parents for letting me work on this instead of school       
