@@ -82,6 +82,8 @@ Then, we remembered that we need two 4 digit 7seg displays, so we were like "let
 
 I keep getting a transmission timing error between the xiao rp2040 and the pico, and I don't know how to fix it. Part of me thinks it's how I wired my pull up resistors (translating breadboard wiring to parallel and series diagrams in my head is rough), but I have no idea. At least I can flash code on the pico now, I dealt with a BOOTSEL issue for like 3 hours yesterday.
 
+So after days of trying to get I2C to work, I decided to switch to SPI. And I kept getting errors there too. I think I've discovered my problem: because I'm using an orpheus pico but setting Arduino IDE's board to a raspberry pi pico, the default MOSI, MISO, and SCK (and therefore the SCL and SDA) pins don't match the orpheus pico's (because they have different internal stuff). So the problem was arduino the whole time. I knew that was gonna be an issue. Damn it. When I tried to set the SDA and SCL pins before Wire.begin() the pico used to crash and not execute any code, that's why I switched to SPI. this is crazy.
+
 ## Big thank you to
 -My teachers for putting up with my late work      
 -My parents for letting me work on this instead of school       
