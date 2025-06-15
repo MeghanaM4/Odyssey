@@ -37,8 +37,8 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 | ------ | ------ |
 | Research + Planning | 95% |
 | Designing PCB and electronics layout | 95% | 
-| Building payload | 5% |
-| Coding firmware | 20% |
+| Building payload | 45% |
+| Coding firmware | 50% |
 | Final tests and edits | 0% |
 | Launch | 0% |
 
