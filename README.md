@@ -84,6 +84,8 @@ I keep getting a transmission timing error between the xiao rp2040 and the pico,
 
 So after days of trying to get I2C to work, I decided to switch to SPI. And I kept getting errors there too. I think I've discovered my problem: because I'm using an orpheus pico but setting Arduino IDE's board to a raspberry pi pico, the default MOSI, MISO, and SCK (and therefore the SCL and SDA) pins don't match the orpheus pico's (because they have different internal stuff). So the problem was arduino the whole time. I knew that was gonna be an issue. Damn it. When I tried to set the SDA and SCL pins before Wire.begin() the pico used to crash and not execute any code, that's why I switched to SPI. this is crazy.
 
+So, I'm spending more money. I've given up on communicating between the xiao rp2040 and another microcontroller. I'm going to buy an 8 digit 7seg display that has 5 pins that I can directly wire to my xiao rp2040. My only concern is that it uses the same MAX7219 driver chip that didn't work for me before (and whose library was also garbage), but other people got this thing to work and maybe those errors was me wiring wrong or doing something dumb. I've been trying for like a week to get this right and now I have to just pray to god that this New Method will work. This sucks balls.
+
 ## Big thank you to
 -My teachers for putting up with my late work      
 -My parents for letting me work on this instead of school       
