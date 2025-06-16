@@ -1,16 +1,33 @@
 #include <Wire.h>
 
+const int LED = 23;
 
 void setup() {
-  Wire.begin(4);
+  pinMode(LED, OUTPUT);
 
-  Serial.begin(9600);
+  digitalWrite(LED, HIGH);
+  delay(1000);
+  digitalWrite(LED, LOW);
+  delay(1000);
+  digitalWrite(LED, HIGH);
+  delay(1000);
+  digitalWrite(LED, LOW);
+  delay(1000);
 
-  Serial.println("started");
+  Wire1.setSDA(6);
+  Wire1.setSCL(7);
+  Wire1.begin(8);
 
-  Wire.setSDA(6);
-  Wire.setSCL(7);
-  Wire.onReceive(receiveEvent);
+  digitalWrite(LED, HIGH);
+  delay(100);
+  digitalWrite(LED, LOW);
+  delay(100);
+  digitalWrite(LED, HIGH);
+  delay(100);
+  digitalWrite(LED, LOW);
+  delay(1000);
+
+  Wire1.onReceive(receiveEvent);
 }
 
 void loop() {
@@ -18,14 +35,31 @@ void loop() {
 }
 
 void receiveEvent(int bytes) {
+  digitalWrite(LED, HIGH);
+  delay(100);
+  digitalWrite(LED, LOW);
+  delay(100);
+  digitalWrite(LED, HIGH);
+  delay(100);
+  digitalWrite(LED, LOW);
+
   String receivedData = "";
-  
-  while (Wire.available()) {
-    char c = Wire.read();
+
+  while (Wire1.available()) {
+    char c = Wire1.read();
     receivedData += c;
   }
-  
-  float height = receivedData.toFloat();
-  Serial.print("Received height: ");
-  Serial.println(height, 2);
+
+  if (receivedData.length() > 0) {
+    float height = receivedData.toFloat();
+    digitalWrite(LED, HIGH);
+    delay(50);
+    digitalWrite(LED, LOW);
+    delay(50);
+  } else {
+    digitalWrite(LED, HIGH);
+    delay(1000);
+    digitalWrite(LED, LOW);
+    delay(1000);
+  }
 }
