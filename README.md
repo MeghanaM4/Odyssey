@@ -35,10 +35,10 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 ## Timeline
 | Phase | Status (%)|
 | ------ | ------ |
-| Research + Planning | 95% |
-| Designing PCB and electronics layout | 95% | 
-| Building payload | 45% |
-| Coding firmware | 50% |
+| Research + Planning | 99% |
+| Designing PCB and electronics layout | 98% | 
+| Building payload | 55% |
+| Coding firmware | 95% |
 | Final tests and edits | 0% |
 | Launch | 0% |
 
