@@ -86,6 +86,33 @@ So after days of trying to get I2C to work, I decided to switch to SPI. And I ke
 
 So, I'm spending more money. I've given up on communicating between the xiao rp2040 and another microcontroller. I'm going to buy an 8 digit 7seg display that has 5 pins that I can directly wire to my xiao rp2040. My only concern is that it uses the same MAX7219 driver chip that didn't work for me before (and whose library was also garbage), but other people got this thing to work and maybe those errors was me wiring wrong or doing something dumb. I've been trying for like a week to get this right and now I have to just pray to god that this New Method will work. This sucks balls.
 
+The new display came, and after it (inevitably) didn't work, I resoldered the connections I had. Who knew that when your wires look like this some stuff is bound to break?
+
+<img title="my god awful soldering job" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/c4b47c876cf222f0edcda5b90e93e094627a8ed1_pxl_20250616_181629293.jpg" style="height: 300px; width:400px;">
+
+Anyway, here's what it looked like after. 
+
+<img title="my okay soldering job" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/4bd527ed36129df926f357fb0703980e92a33b0a_pxl_20250616_204817879.jpg" style="height: 300px; width:400px;">
+
+> I made the mistake of getting 16 gauge wire. I spent ages at Lowe's trying to find like reasonable electrical wire but all of it was like Lamp Wire or Speaker Wire or Roof Tubing Heavy Duty Fracking Wire. Then, I tried to look for 24 gauge wire (thanks @Karmanyaah) but apparently none exists within a 50 mile radius of me so I had to buy it from amazon and get it shipped the next day. What you see above is me thinning out the ends of the wire so I can actually solder it. I've added an "idiot" column to my BOM.            
+
+The display worked! Wow, the wonders of not being lazy.
+
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/43c4f71042a8b2bfafeb567aae0e61b7b020d1f4_image.png" style="height: 200px; width:400px;">
+
+But that was on the wrong microcontroller. I'd gotten it to work on the XIAO nRF52840 Sense that I had because, for some reason, it wouldn't work on my xiao RP2040. I dug out my dad's multimeter and found out it wasn't because of my soldering (win), but because of STUPID PIN ASSIGNMENTS. WHAT THE FREAK. On the xiao nRF you just put the GPIO assignment (D7 = 7), which is fine. But on the xiao rp2040 for some reason D10 is actually 3??? What?? Anyway, I got it work.
+
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8070c4cc2868eb76139e9000439e779adbd32134_image.png">
+
+So with my camera set up (I had to buy another one since the first one was too cheap to work), the inside of the payload will look a bit like this. (the camera quality is better than this, I'm using a screenshot from a video of a video)
+
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8dcb325aa1bbb1f20eff533a31a7d34695396067_image.png">
+
+I've weighed the thing and I'm about 100g over (the whole thing is supposed to be 3/4 lbs or ~340 grams), so I'm planning to build the entire thing, be as wire-conscious as possible, and use my soldering iron to burn away any excess weight I might have after it's all done.
+> Fun Fact: Burnt stryofoam fumes are carcinogenic
+
+I'm glad I'm not like insanely overweight because I hadn't weighed it up till now and was just kind of praying.
+
 ## Big thank you to
 -My teachers for putting up with my late work      
 -My parents for letting me work on this instead of school       
