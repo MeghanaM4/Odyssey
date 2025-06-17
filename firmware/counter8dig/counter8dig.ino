@@ -1,35 +1,30 @@
 #include <LedControl.h>
 
-// Pin 10 = DataIn, Pin 8 = CLK, Pin 7 = CS/LOAD
-LedControl lc = LedControl(10, 8, 7, 1);  // 1 = number of MAX7219 chips
+//this crap is diabolical I cannot believe pin assignments are like this
+#define DATA_IN 3  //MOSI - D10
+#define CLK     2   //SCK - D8
+#define CS      1   //CS - D7
 
-int counter = 0;
+LedControl lc = LedControl(DATA_IN, CLK, CS, 1);
 
 void setup() {
-  lc.shutdown(0, false);       // Wake up display
-  lc.setIntensity(0, 8);       // Set brightness 0–15
-  lc.clearDisplay(0);          // Clear display
+  lc.shutdown(0, false);
+  lc.setIntensity(0, 8);
+  lc.clearDisplay(0);
+
 }
 
 void loop() {
+  static unsigned long counter = 0;
   displayNumber(counter);
   counter++;
-  delay(1000);
+  delay(250);
 }
 
-void displayNumber(int num) {
-  // Clear previous digits
-  lc.clearDisplay(0);
-  
-  // Display from right to left
-  int digit = 0;
-  if (num == 0) {
-    lc.setDigit(0, 0, 0, false);
-  } else {
-    while (num > 0 && digit < 8) {
-      lc.setDigit(0, digit, num % 10, false);
-      num /= 10;
-      digit++;
-    }
+void displayNumber(unsigned long num) {
+  for (int i = 0; i < 8; i++) {
+    int digit = num % 10;
+    lc.setDigit(0, i, digit, false);
+    num /= 10;
   }
 }
