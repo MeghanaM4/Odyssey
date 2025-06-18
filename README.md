@@ -109,11 +109,17 @@ So with my camera set up (I had to buy another one since the first one was too c
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/8dcb325aa1bbb1f20eff533a31a7d34695396067_image.png">
 
 I've weighed the thing and I'm about 100g over (the whole thing is supposed to be 3/4 lbs or ~340 grams), so I'm planning to build the entire thing, be as wire-conscious as possible, and use my soldering iron to burn away any excess weight I might have after it's all done.
-> Fun Fact: Burnt stryofoam fumes are carcinogenic
+> Fun Fact: Burnt stryofoam fumes are carcinogenic!
 
 I'm glad I'm not like insanely overweight because I hadn't weighed it up till now and was just kind of praying.
 
-Yeah okay it's overweight. I didn't realize how much 100g of styrofoam actually was. It's like, a lot. I spent 10 minutes using my crappy $10 soldering iron to burn/melt away some of the sides of the box, and then I just started coughing a ton so I was like "that's probably a sign to stop" (did I mention styrofoam fumes are carcinogenic?). Anyway, I only got a gram off or something. Then, as I waited for my bedroom to stop becoming a Hazardous Zone, I went outside and started chopping away at the box with a massive serated kitchen knife. That only yieled about a gram, too. No dice.
+Yeah okay it's overweight. I didn't realize how much 100g of styrofoam actually was. It's like, a lot. I spent 10 minutes using my crappy $10 soldering iron to burn/melt away some of the sides of the box, and then I just started coughing a ton so I was like "that's probably a sign to stop" 
+
+> did I mention styrofoam fumes are carcinogenic?
+
+Anyway, I only got a gram off or something. 
+
+Then, as I waited for my bedroom to stop becoming a Hazardous Zone, I went outside and started chopping away at the box with a massive serated kitchen knife. That only yielded about a gram, too. No dice.
 > My window was open and the ceiling fan was running. My lungs feel okay.
                   
                   
@@ -121,6 +127,8 @@ Then I was just like "screw it" and destroyed my box to make a smaller one. An h
 
 <img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/36a0982beb20dea9dae740fa9f7308bcbc8da8a1_pxl_20250618_055651877.jpg">
 
+Tomorrow I'll glue the sides of the box together with gorilla glue and spray insulation/gap filler, and then I'll start soldering. We're so back.
+> It's 2am.
 
 ## Big thank you to
 -My teachers for putting up with my late work      
