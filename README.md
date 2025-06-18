@@ -8,8 +8,7 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 - Sensor data from SMD components on PCB (stored on a microSD card)
 - PCB powered by 3 AA batteries that can survive -45C
 - Internal camera that can see outside through a polycarbonate window on the wall
-- 4 digit 7-segment displays that show the current altitude, which the int. camera can also see
-- Bouncy balls so we can test if the low pressure affected their bouncification index (technical term)
+- 8 digit 7-segment display that show the current altitude, which the int. camera can also see
 
 ## Collected data
 - Pressure
@@ -37,7 +36,7 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 | ------ | ------ |
 | Research + Planning | 99% |
 | Designing PCB and electronics layout | 98% | 
-| Building payload | 55% |
+| Building payload | 60% |
 | Coding firmware | 95% |
 | Final tests and edits | 0% |
 | Launch | 0% |
