@@ -113,6 +113,15 @@ I've weighed the thing and I'm about 100g over (the whole thing is supposed to b
 
 I'm glad I'm not like insanely overweight because I hadn't weighed it up till now and was just kind of praying.
 
+Yeah okay it's overweight. I didn't realize how much 100g of styrofoam actually was. It's like, a lot. I spent 10 minutes using my crappy $10 soldering iron to burn/melt away some of the sides of the box, and then I just started coughing a ton so I was like "that's probably a sign to stop" (did I mention styrofoam fumes are carcinogenic?). Anyway, I only got a gram off or something. Then, as I waited for my bedroom to stop becoming a Hazardous Zone, I went outside and started chopping away at the box with a massive serated kitchen knife. That only yieled about a gram, too. No dice.
+> My window was open and the ceiling fan was running. My lungs feel okay.
+                  
+                  
+Then I was just like "screw it" and destroyed my box to make a smaller one. An hour later, ta da! All that funky texture is my previous attempt at burning away material, and (as I'm sure you can guess) ruining my soldering iron in the process. It's strong, it'll push through.
+
+<img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/36a0982beb20dea9dae740fa9f7308bcbc8da8a1_pxl_20250618_055651877.jpg">
+
+
 ## Big thank you to
 -My teachers for putting up with my late work      
 -My parents for letting me work on this instead of school       
