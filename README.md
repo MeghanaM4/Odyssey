@@ -127,6 +127,10 @@ Then I was just like "screw it" and destroyed my box to make a smaller one. An h
 
 <img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/36a0982beb20dea9dae740fa9f7308bcbc8da8a1_pxl_20250618_055651877.jpg">
 
+Updated inside view (no wires): 
+
+<img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/cd2a20030527f969a84e0974c012acceb8837b8a_pxl_20250618_061528437.jpg">
+
 Tomorrow I'll glue the sides of the box together with gorilla glue and spray insulation/gap filler, and then I'll start soldering. We're so back.
 > It's 2am.
 
