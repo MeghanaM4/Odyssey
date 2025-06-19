@@ -46,7 +46,7 @@ void setup() {
   initALS31313();
 
   lc.shutdown(0, false);
-  lc.setIntensity(0, 8);
+  lc.setIntensity(0, 1);
   lc.clearDisplay(0);
 
   delay(2000);

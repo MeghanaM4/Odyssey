@@ -1,11 +1,13 @@
-//open Serial Plotter and plot
-
 #include <Wire.h>
 #include <SPI.h>
 #include <SD.h>
+#include <LedControl.h>
 
-//microSD card
 const int chipSelect = 29;
+
+const int displayDIN = 26;  //D0
+const int displayCLK = 0;   //D6
+const int displayCS = 1;    //D7
 
 //logging data
 struct SensorLog {
@@ -43,37 +45,57 @@ uint16_t C[8];
 #define ALS31313_Z_LSB 0x2C
 #define ALS31313_Z_MSB 0x2D
 
+LedControl lc = LedControl(displayDIN, displayCLK, displayCS, 1);
+
 float temperature = 0, pressure = 0, altitude = 0;
 float accelX = 0, accelY = 0, accelZ = 0;
 float gyroX = 0, gyroY = 0, gyroZ = 0;
 float magX = 0, magY = 0, magZ = 0, magMagnitude = 0;
 
+bool start = true;
+unsigned long lastUpdate = 0;
+
 void setup() {
   Serial.begin(115200);
 
+  SPI.begin();
+
   if (!SD.begin(chipSelect)) {
-    Serial.println("SD card initialization failed!");
+    Serial.println("SD card initialization failed");
     return;
   }
   Serial.println("SD card initialized.");
 
   Wire.begin();
 
-
   initMS5607();
   initMPU6050();
   initALS31313();
 
+  lc.shutdown(0, false);
+  lc.setIntensity(0, 1);
+  lc.clearDisplay(0);
+
   delay(2000);
-  startTime = millis() / 1000; 
+  startTime = millis();
 }
 
 void loop() {
-  //Read all sensors
   readMS5607();
   readMPU6050();
   readALS31313();
 
+  logDataToSD();
+
+  if (millis() - lastUpdate >= 200) {  //to avoid overload
+    displayNum(altitude);
+    lastUpdate = millis();
+  }
+
+  delay(100);
+}
+
+void logDataToSD() {
   SensorLog logs[] = {
     { "temperature.txt", "Temperature:", temperature },
     { "pressure.txt", "Pressure:", pressure },
@@ -94,20 +116,33 @@ void loop() {
   for (int i = 0; i < sizeof(logs) / sizeof(logs[0]); i++) {
     File f = SD.open(logs[i].filename, FILE_WRITE);
     if (f) {
-      f.print(millis() / 1000 - startTime);  //time
-      f.print(",");
+
+      if (start) {
+        File errorlog = SD.open("errorlog.csv", FILE_WRITE);
+        errorlog.println("Error log:");
+        errorlog.close();
+        start = false;
+      }
+
+      f.print(millis() - startTime);  //time
+      f.print(", ");
       f.println(logs[i].value);  //value
       f.close();
     } else {
+      File errorlog = SD.open("errorlog.csv", FILE_WRITE);
+      if (errorlog) {
+        errorlog.print("Error opening file: ");
+        errorlog.print(logs[i].filename);
+        errorlog.print(" at ");
+        errorlog.println(millis() - startTime);
+      }
+
       Serial.print("Error opening file: ");
       Serial.println(logs[i].filename);
     }
   }
-  
-  delay(100);
 }
 
-//===== MS5607 Functions =====
 bool initMS5607() {
   Wire.beginTransmission(MS5607_ADDR);
   Wire.write(CMD_RESET);
@@ -182,11 +217,6 @@ uint32_t readRawTemperature() {
   return result;
 }
 
-
-
-
-
-//===== MPU6050 Functions =====
 bool initMPU6050() {
   Wire.beginTransmission(MPU6050_ADDR);
   if (Wire.endTransmission() != 0) return false;
@@ -226,9 +256,6 @@ void readMPU6050() {
 }
 
 
-
-
-//===== ALS31313 Functions =====
 bool initALS31313() {
   Wire.beginTransmission(ALS31313_ADDR);
   return (Wire.endTransmission() == 0);
@@ -262,4 +289,29 @@ int16_t readALS31313Register(uint8_t regMSB, uint8_t regLSB) {
   if (Wire.available()) lsb = Wire.read();
 
   return (int16_t)((msb << 8) | lsb);
+}
+
+void displayNum(float num) {
+  char buffer[10];
+  sprintf(buffer, "%8.2f", num);
+
+  int digit = 0;
+
+  for (int i = 7; i >= 0; i--) {
+
+    if (buffer[i] == '.') {
+
+      if (i > 0 && buffer[i - 1] != ' ') {
+        lc.setChar(0, digit, buffer[i - 1], true);
+        i--;
+      }
+
+    } else if (buffer[i] != ' ') {
+      lc.setChar(0, digit, buffer[i], false);
+
+    } else {
+      lc.setChar(0, digit, ' ', false);
+    }
+    digit++;
+  }
 }

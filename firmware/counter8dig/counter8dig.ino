@@ -1,8 +1,8 @@
 #include <LedControl.h>
 
 //this crap is diabolical I cannot believe pin assignments are like this
-#define DATA_IN 3  //MOSI - D10
-#define CLK     2   //SCK - D8
+#define DATA_IN 26 //DIN - D0
+#define CLK     0   //SCK - D6
 #define CS      1   //CS - D7
 
 LedControl lc = LedControl(DATA_IN, CLK, CS, 1);

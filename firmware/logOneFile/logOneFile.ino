@@ -1,15 +1,17 @@
-//open Serial Plotter and plot
-
 #include <Wire.h>
 #include <SPI.h>
 #include <SD.h>
+#include <LedControl.h>
 
 //microSD card
 const int chipSelect = 29;
 
+const int displayDIN = 26;  //D0
+const int displayCLK = 0;   //D6  
+const int displayCS = 1;    //D7
+
 //for time
 long startTime = 0;
-
 
 //MS5607 altimeter
 #define MS5607_ADDR 0x77
@@ -36,63 +38,107 @@ uint16_t C[8];
 #define ALS31313_Z_LSB 0x2C
 #define ALS31313_Z_MSB 0x2D
 
+LedControl lc = LedControl(displayDIN, displayCLK, displayCS, 1);
+
 float temperature = 0, pressure = 0, altitude = 0;
 float accelX = 0, accelY = 0, accelZ = 0;
 float gyroX = 0, gyroY = 0, gyroZ = 0;
 float magX = 0, magY = 0, magZ = 0, magMagnitude = 0;
 
+bool start = true;
+unsigned long lastUpdate = 0;
+
 void setup() {
   Serial.begin(115200);
-
+  
+  SPI.begin();
+  
   if (!SD.begin(chipSelect)) {
-    Serial.println("SD card initialization failed!");
+    Serial.println("SD card initialization failed");
     return;
   }
   Serial.println("SD card initialized.");
 
   Wire.begin();
 
-
   initMS5607();
   initMPU6050();
   initALS31313();
+
+  lc.shutdown(0, false);
+  lc.setIntensity(0, 1);
+  lc.clearDisplay(0);
 
   delay(2000);
   startTime = millis();
 }
 
 void loop() {
-  //Read all sensors
   readMS5607();
   readMPU6050();
   readALS31313();
 
-  File datalog = SD.open("datalog.csv", FILE_WRITE);
+  logDataToSD();
 
-  if(datalog) {
-    datalog.print(millis() - startTime); datalog.print(",");
-    datalog.print(temperature); datalog.print(",");
-    datalog.print(pressure); datalog.print(",");
-    datalog.print(altitude); datalog.print(",");
-    datalog.print(accelX); datalog.print(",");
-    datalog.print(accelY); datalog.print(",");
-    datalog.print(accelZ); datalog.print(",");
-    datalog.print(gyroX); datalog.print(",");
-    datalog.print(gyroY); datalog.print(",");
-    datalog.print(gyroZ); datalog.print(",");
-    datalog.print(magX); datalog.print(",");
-    datalog.print(magY); datalog.print(",");
-    datalog.print(magZ); datalog.print(",");
-    datalog.println(magMagnitude);
-  } else {
-    Serial.println("Error opening datalog file");
+  if (millis() - lastUpdate >= 200) { //to avoid overload
+    displayNum(altitude);
+    lastUpdate = millis();
   }
-  
-  
+
   delay(100);
 }
 
-//===== MS5607 Functions =====
+void logDataToSD() {
+  File datalog = SD.open("datalog.csv", FILE_WRITE);
+
+  if (datalog) {
+    if (start) {
+      File errorlog = SD.open("errorlog.csv", FILE_WRITE);
+      errorlog.println("Error log:");
+      errorlog.close();
+      datalog.println("Time (ms), Temp (C), Pressure (Pa), Altitude (m), Ax, Ay, Az, Gx, Gy, Gz, Mx, My, Mz, Mag");
+      start = false;
+    }
+
+    datalog.print(millis() - startTime);
+    datalog.print(", ");
+    datalog.print(temperature);
+    datalog.print(", ");
+    datalog.print(pressure);
+    datalog.print(", ");
+    datalog.print(altitude);
+    datalog.print(", ");
+    datalog.print(accelX);
+    datalog.print(", ");
+    datalog.print(accelY);
+    datalog.print(", ");
+    datalog.print(accelZ);
+    datalog.print(", ");
+    datalog.print(gyroX);
+    datalog.print(", ");
+    datalog.print(gyroY);
+    datalog.print(", ");
+    datalog.print(gyroZ);
+    datalog.print(", ");
+    datalog.print(magX);
+    datalog.print(", ");
+    datalog.print(magY);
+    datalog.print(", ");
+    datalog.print(magZ);
+    datalog.print(", ");
+    datalog.println(magMagnitude);
+    datalog.close();
+  } else {
+    File errorlog = SD.open("errorlog.csv", FILE_WRITE);
+    if (errorlog) {
+      errorlog.print("Error opening datalog file at ");
+      errorlog.println(millis() - startTime);
+      errorlog.close();
+    }
+    Serial.println("Error opening datalog file");
+  }
+}
+
 bool initMS5607() {
   Wire.beginTransmission(MS5607_ADDR);
   Wire.write(CMD_RESET);
@@ -167,11 +213,6 @@ uint32_t readRawTemperature() {
   return result;
 }
 
-
-
-
-
-//===== MPU6050 Functions =====
 bool initMPU6050() {
   Wire.beginTransmission(MPU6050_ADDR);
   if (Wire.endTransmission() != 0) return false;
@@ -210,10 +251,6 @@ void readMPU6050() {
   }
 }
 
-
-
-
-//===== ALS31313 Functions =====
 bool initALS31313() {
   Wire.beginTransmission(ALS31313_ADDR);
   return (Wire.endTransmission() == 0);
@@ -247,4 +284,25 @@ int16_t readALS31313Register(uint8_t regMSB, uint8_t regLSB) {
   if (Wire.available()) lsb = Wire.read();
 
   return (int16_t)((msb << 8) | lsb);
+}
+
+void displayNum(float num) {
+  char buffer[10];
+  sprintf(buffer, "%8.2f", num);
+
+  int digit = 0;
+
+  for (int i = 7; i >= 0; i--) {
+    if (buffer[i] == '.') {
+      if (i > 0 && buffer[i - 1] != ' ') {
+        lc.setChar(0, digit, buffer[i - 1], true);
+        i--;
+      }
+    } else if (buffer[i] != ' ') {
+      lc.setChar(0, digit, buffer[i], false);
+    } else {
+      lc.setChar(0, digit, ' ', false);
+    }
+    digit++;
+  }
 }
