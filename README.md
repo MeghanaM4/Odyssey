@@ -35,10 +35,10 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 | Phase | Status (%)|
 | ------ | ------ |
 | Research + Planning | 99% |
-| Designing PCB and electronics layout | 98% | 
-| Building payload | 60% |
-| Coding firmware | 95% |
-| Final tests and edits | 0% |
+| Designing PCB and electronics layout | 100% | 
+| Building payload | 99% |
+| Coding firmware | 100% |
+| Final tests and edits | 95% |
 | Launch | 0% |
 
 ## Design Process
