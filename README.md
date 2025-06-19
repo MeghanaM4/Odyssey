@@ -121,7 +121,7 @@ Anyway, I only got a gram off or something.
 Then, as I waited for my bedroom to stop becoming a Hazardous Zone, I went outside and started chopping away at the box with a massive serated kitchen knife. That only yielded about a gram, too. No dice.
 > My window was open and the ceiling fan was running. My lungs feel okay.
                   
-                  
+              
 Then I was just like "screw it" and destroyed my box to make a smaller one. An hour later, ta da! All that funky texture is my previous attempt at burning away material, and (as I'm sure you can guess) ruining my soldering iron in the process. It's strong, it'll push through.
 
 <img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/36a0982beb20dea9dae740fa9f7308bcbc8da8a1_pxl_20250618_055651877.jpg">
@@ -130,8 +130,46 @@ Updated inside view (no wires):
 
 <img title="I committed styrofoam murder to get to this point" style="height: 500px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/cd2a20030527f969a84e0974c012acceb8837b8a_pxl_20250618_061528437.jpg">
 
+
 Tomorrow I'll glue the sides of the box together with gorilla glue and spray insulation/gap filler, and then I'll start soldering. We're so back.
 > It's 2am.
+
+So I sprayed insulation and gap filler and got everything pretty nice and laid out. I soldered the entire circuit and with some minor adjustments (I soldered the wrong pins of the rocker switch and I switched the 5V and GND junctions), it worked. My 7 segment display is showing altitude and everything is awesome.
+
+<img title="hooray!" style="height: 450px; width:400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0d7697dcafe8cab70b5886dd079bcc7e2e1eba9e_image.png">
+
+So then I stuck all its guts inside, taped some stuf down, and it now looks like this. Everything is awesome.
+
+<img title="neat and tidy" style="height: 500px; width:300px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d95a1ff25e3cdc0ff2b304ee032d6d7617709a2e_image.png">
+
+So remember when I said everything is awesome? Turns out it's not. I'd run code for the 7 segment display and that worked, and I had code to log sensor data onto the microSD card, so I assumed everything would be fine when you put them together. Well was it? No, of course not. I was using SPI communication for both storing data on the microSD card and communicating with the 7 segment display. When I implemented the LedControl library in my log code, my display worked but it kept printed "Error opening file" to the serial monitor.
+
+_Frick_ 
+
+The display and SD card trying to communicate at the same time was screwing everything up, because signals it was sending overlapped with eachother and caused a bunch of nonsense. I immediately assumed that the problem couldn't be fixed, and that I'd have to sacrifice the display and it would all be sad. I'd tried to manually activate and deactivate the display by digitalWriting its chip select LOW and HIGH whenever the display was supposed to be silent, but it didn't work.
+> Apparently, you're not supposed to do that.
+
+Then, I thought that I should only update the display once every second, hoping that would slow down communication and the handling would be better. Also didn't work.
+
+_Friiiiiiick_
+
+Then, it hit me. I used the xiao's MISO pin for both components, not thinking about how that literally makes no sense. My serial clock was also connected to a pin that was already in use by the PCB, so that was an issue as well. I had 2 unconnected pins on my PCB. One I was using as my display's chip select (by complete chance) and one that I hadn't soldered to anything. I needed 3. DIN, CLK, and CS. I looked back at my KiCAD schematic and saw that I had interrupt pins for my magnetometer and my gyroscope, and realized I wasn't using them at all. 
+> I was using polling, which is apparently way less efficient.
+
+Since I wasn't using either of those pins, I soldered my DIN wire to my magnetometer interrupt pin and my CLK to the other unconnected GPIO I had. Still didn't work.
+
+_Friiiiiiiiiiiiiiiiiiiiiiick_
+
+Then I was like "what if the magnetometer is still using the interrupt pin, even though I'm not. It could be sending whatever it wants, or like bugging out and being random" (technical terms). So I cut its little ssop 8 legs off and tested it. 
+
+It worked.
+
+
+Anyway, so everything's good now. Look at the inside!
+
+<img style="height: 500px; width:300px;" src="/imgs/odysseyCam">
+
+I'm not doing a polycarb window anymore, partly because of time (my flight's tomorrow) and partly cause I'm scared to do anything else to this thing. I'm pretty happy with it.
 
 ## Big thank you to
 -My teachers for putting up with my late work      
