@@ -167,7 +167,7 @@ It worked.
 
 Anyway, so everything's good now. Look at the inside!
 
-<img style="height: 500px; width:300px;" src="/imgs/odysseyCam">
+<img style="height: 500px; width:900px;" src="/imgs/odysseyCam.png">
 
 I'm not doing a polycarb window anymore, partly because of time (my flight's tomorrow) and partly cause I'm scared to do anything else to this thing. I'm pretty happy with it.
 
