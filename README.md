@@ -41,6 +41,12 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 | Final tests and edits | 95% |
 | Launch | 0% |
 
+## Internal Camera View
+<img style="height: 500px; width:900px;" src="/imgs/odysseyCam.png">
+
+## External View
+<img style="height: 500px; width: 400px;" src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/f72a9105185d47a55e84fa1e3933b260d4b55075_pxl_20250620_000037959.jpg">
+
 ## Design Process
 My first sketch of Odyssey looked like this:
 <br>
