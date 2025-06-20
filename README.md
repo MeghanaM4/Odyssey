@@ -170,6 +170,7 @@ Then I was like "what if the magnetometer is still using the interrupt pin, even
 
 It worked.
 
+> Thank god, I was nearing the martian levels of self-inflicted disasters
 
 Anyway, so everything's good now. Look at the inside!
 
