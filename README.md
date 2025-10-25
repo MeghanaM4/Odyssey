@@ -7,7 +7,7 @@ I have been in love with space for as long as I can remember, so when I heard Ha
 ## Quick Overview (what we're sending up)
 - Sensor data from SMD components on PCB (stored on a microSD card)
 - PCB powered by 3 AA batteries that can survive -45C
-- Internal camera that can see outside through a polycarbonate window on the wall
+- Internal camera that can see internal content
 - 8 digit 7-segment display that show the current altitude, which the int. camera can also see
 
 ## Collected data
