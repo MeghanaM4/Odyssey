@@ -34,12 +34,12 @@ View the complete BOM [here](https://docs.google.com/spreadsheets/d/1y77u3fouo9j
 ## Timeline
 | Phase | Status (%)|
 | ------ | ------ |
-| Research + Planning | 99% |
+| Research + Planning | 100% |
 | Designing PCB and electronics layout | 100% | 
-| Building payload | 99% |
+| Building payload | 100% |
 | Coding firmware | 100% |
-| Final tests and edits | 95% |
-| Launch | 0% |
+| Final tests and edits | 100% |
+| Launch | 100% |
 
 ## Internal Camera View
 <img style="height: 500px; width:900px;" src="/imgs/odysseyCam.png">
@@ -177,6 +177,11 @@ Anyway, so everything's good now. Look at the inside!
 <img style="height: 500px; width:900px;" src="/imgs/odysseyCam.png">
 
 I'm not doing a polycarb window anymore, partly because of time (my flight's tomorrow) and partly cause I'm scared to do anything else to this thing. I'm pretty happy with it.
+
+----------------------
+Update: I launched! Apex was an awesome event. After a nasty takeoff that made everyone's payloads hit the ground on takeoff, the balloons rose to about 100,000 feet in the air before popping. Unfortunately, the balloon my payload was on (there were 2) was the one that got stuck in a tree and was unrecoverable. So although I will never get to see what the camera saw, I can't believe I actually did it.
+
+_This update was made about 4 months after Apex happened. I got a bit sidetracked (check out [Pathfinder](https://pathfinder.hackclub.com) and [Daydream](https://daydream.hackclub.com))_
 
 ## Big thank you to
 -My teachers for putting up with my late work      
